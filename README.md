@@ -1,6 +1,7 @@
 # Nmap-TryHackMe
 
-## Deploy the machine!
+## Introduction
+### Deploy the machine!
 <details>
   <summary>Answer</summary>
 
@@ -10,7 +11,7 @@
 </details>
 
 
-## What networking constructs are used to direct traffic to the right application on a server?
+### What networking constructs are used to direct traffic to the right application on a server?
 <details>
   <summary>Answer</summary>
 
@@ -19,7 +20,7 @@
   ```
 </details>
 
-## How many of these are available on any network-enabled computer?
+### How many of these are available on any network-enabled computer?
 <details>
   <summary>Answer</summary>
 
@@ -28,7 +29,7 @@
   ```
 </details>
 
-## [Research] How many of these are considered "well-known"? (These are the "standard" numbers mentioned in the task)
+### [Research] How many of these are considered "well-known"? (These are the "standard" numbers mentioned in the task)
 <details>
   <summary>Answer</summary>
 
