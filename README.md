@@ -18,6 +18,7 @@
    Ports
   ```
 </details>
+
 ## How many of these are available on any network-enabled computer?
 <details>
   <summary>Answer</summary>
