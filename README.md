@@ -196,3 +196,36 @@
  --script=vuln
   ```
 </details>
+
+## [Scan Types] Overview
+<details>
+  <summary>Answer</summary>
+
+  ```
+   No Answer needed
+  ```
+</details>
+
+## [Scan Types] TCP Connect Scans
+### Which RFC defines the appropriate behaviour for the TCP protocol?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  RFC 793
+  ```
+</details>
+
+### If a port is closed, which flag should the server send back to indicate this?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+   RST
+  ```
+</details>
+
+
+
