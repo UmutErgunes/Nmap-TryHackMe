@@ -86,3 +86,113 @@
    -v
   ```
 </details>
+
+### Verbosity level one is good, but verbosity level two is better! How would you set the verbosity level to two?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+   -vv
+  ```
+</details>
+
+### What switch would you use to save the nmap results in three major formats?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+   -oA
+  ```
+</details>
+
+### What switch would you use to save the nmap results in a "normal" format?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+   -oN
+  ```
+</details>
+
+### A very useful output format: how would you save results in a "grepable" format?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+   -oG
+  ```
+</details>
+
+### How would you activate this setting?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+   -A
+  ```
+</details>
+
+### How would you set the timing template to level 5?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+   -T5
+  ```
+</details>
+
+### How would you tell nmap to only scan port 80?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+   -p 80
+  ```
+</details>
+
+### How would you tell nmap to scan ports 1000-1500?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  -p 1000-1500
+  ```
+</details>
+
+### How would you tell nmap to scan all ports?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  -p-
+  ```
+</details>
+
+### How would you activate a script from the nmap scripting library (lots more on this later!)?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  --script
+  ```
+</details>
+
+### How would you activate all of the scripts in the "vuln" category?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+ --script=vuln
+  ```
+</details>
