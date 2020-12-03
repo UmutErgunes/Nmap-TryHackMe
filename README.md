@@ -1,12 +1,16 @@
 # Nmap-TryHackMe
 
 ## Deploy the machine!
-### No Answer needed 
+### Answer: No Answer needed 
 
 ## What networking constructs are used to direct traffic to the right application on a server?
-### Ports
+### Answer: Ports
 
 ## How many of these are available on any network-enabled computer?
-### 65535
+### Answer: 65535
+
+## [Research] How many of these are considered "well-known"? (These are the "standard" numbers mentioned in the task)
+### Answer: 1024
+
 
 
