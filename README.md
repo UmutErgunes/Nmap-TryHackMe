@@ -1,6 +1,13 @@
 # Nmap-TryHackMe
 
 ## Deploy the machine!
+<details>
+  <summary>Example</summary>
+
+  ```
+  long console output here
+  ```
+</details>
 ### Answer: No Answer needed 
 
 ## What networking constructs are used to direct traffic to the right application on a server?
