@@ -1,6 +1,7 @@
 # Nmap-TryHackMe
 
-## Introduction
+## <summary>Introduction<summary>
+   ```
 ### Deploy the machine!
 <details>
   <summary>Answer</summary>
@@ -37,7 +38,7 @@
    1024
   ```
 </details>
-
+```
 
 ## Nmap Switches
 ### What is the first switch listed in the help menu for a 'Syn Scan' (more on this later!)?
