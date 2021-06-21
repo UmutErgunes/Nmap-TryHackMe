@@ -227,5 +227,24 @@
   ```
 </details>
 
+## [Scan Types] SYN Scans
+### There are two other names for a SYN scan, what are they?
 
+<details>
+  <summary>Answer</summary>
+
+  ```
+  half-open,stealth
+  ```
+</details>
+
+### Can Nmap use a SYN scan without Sudo permissions (Y/N)?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  N
+  ```
+</details>
 
