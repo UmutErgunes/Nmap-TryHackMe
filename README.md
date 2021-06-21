@@ -386,3 +386,76 @@ What is the filename of the script which determines the underlying OS of the SMB
   --data-length
   ```
 </details>
+
+## Practical
+### Does the target (10.10.53.56)respond to ICMP (ping) requests (Y/N)?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  N
+  ```
+</details>
+
+### Perform an Xmas scan on the first 999 ports of the target -- how many ports are shown to be open or filtered?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  999
+  ```
+</details>
+
+### The answer will be in your scan results. Think carefully about which switches to use -- and read the hint before asking for help!
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  no response
+  ```
+</details>
+
+### Perform a TCP SYN scan on the first 5000 ports of the target -- how many ports are shown to be open?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  5
+  ```
+</details>
+
+### Open Wireshark (see Cryillic's Wireshark Room for instructions) and perform a TCP Connect scan against port 80 on the target, monitoring the results.
+Make sure you understand what's going on.
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  No answer needed.
+  ```
+</details>
+
+### Deploy the ftp-anon script against the box. Can Nmap login successfully to the FTP server on port 21? (Y/N)
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  Y
+  ```
+</details>
+
+## Conclusion
+### Read the conclusion.
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  No answer needed.
+  ```
+</details>
