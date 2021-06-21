@@ -300,3 +300,14 @@
   microsoft windows
   ```
 </details>
+
+## [Scan Types] ICMP Network Scanning
+### How would you perform a ping sweep on the 172.16.x.x network (Netmask: 255.255.0.0) using Nmap? (CIDR notation)
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  nmap -sn 172.16.0.0/16
+  ```
+</details>
