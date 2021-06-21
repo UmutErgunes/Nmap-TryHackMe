@@ -332,3 +332,14 @@
   intrusive
   ```
 </details>
+
+## [NSE Scripts] Working with the NSE
+### What optional argument can the ftp-anon.nse script take?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  maxlist
+  ```
+</details>
