@@ -311,3 +311,24 @@
   nmap -sn 172.16.0.0/16
   ```
 </details>
+
+## [NSE Scripts] Overview
+### What language are NSE scripts written in?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  lua
+  ```
+</details>
+
+### Which category of scripts would be a very bad idea to run in a production environment?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  intrusive
+  ```
+</details>
