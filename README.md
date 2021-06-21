@@ -343,3 +343,25 @@
   maxlist
   ```
 </details>
+
+## [NSE Scripts] Searching for Scripts
+### Search for "smb" scripts in the /usr/share/nmap/scripts/ directory using either of the demonstrated methods.
+What is the filename of the script which determines the underlying OS of the SMB server?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  maxlist
+  ```
+</details>
+
+### Read through this script. What does it depend on?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  smb-brute
+  ```
+</details>
