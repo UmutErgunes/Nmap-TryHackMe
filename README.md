@@ -268,3 +268,35 @@
   ICMP
   ```
 </details>
+
+
+## [Scan Types] NULL, FIN and XMas
+### Which of the three shown scan types uses the URG flag?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  xmas
+  ```
+</details>
+
+### Why are NULL, FIN and Xmas scans generally used?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  firewall evasion
+  ```
+</details>
+
+### Which common OS may respond to a NULL, FIN or Xmas scan with a RST for every port?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  microsoft windows
+  ```
+</details>
