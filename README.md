@@ -248,3 +248,23 @@
   ```
 </details>
 
+## [Scan Types] UDP Scans
+### If a UDP port doesn't respond to an Nmap scan, what will it be marked as?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  open|filtered
+  ```
+</details>
+
+### When a UDP port is closed, by convention the target should send back a "port unreachable" message. Which protocol would it use to do so?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  ICMP
+  ```
+</details>
