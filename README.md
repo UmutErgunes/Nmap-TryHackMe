@@ -1,4 +1,4 @@
-# Nmap-TryHackMe
+# Nmap-TryHackMe [Nmap Room](https://tryhackme.com/room/furthernmap)
 
 ## Introduction
 
@@ -227,5 +227,235 @@
   ```
 </details>
 
+## [Scan Types] SYN Scans
+### There are two other names for a SYN scan, what are they?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  half-open,stealth
+  ```
+</details>
+
+### Can Nmap use a SYN scan without Sudo permissions (Y/N)?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  N
+  ```
+</details>
+
+## [Scan Types] UDP Scans
+### If a UDP port doesn't respond to an Nmap scan, what will it be marked as?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  open|filtered
+  ```
+</details>
+
+### When a UDP port is closed, by convention the target should send back a "port unreachable" message. Which protocol would it use to do so?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  ICMP
+  ```
+</details>
 
 
+## [Scan Types] NULL, FIN and XMas
+### Which of the three shown scan types uses the URG flag?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  xmas
+  ```
+</details>
+
+### Why are NULL, FIN and Xmas scans generally used?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  firewall evasion
+  ```
+</details>
+
+### Which common OS may respond to a NULL, FIN or Xmas scan with a RST for every port?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  microsoft windows
+  ```
+</details>
+
+## [Scan Types] ICMP Network Scanning
+### How would you perform a ping sweep on the 172.16.x.x network (Netmask: 255.255.0.0) using Nmap? (CIDR notation)
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  nmap -sn 172.16.0.0/16
+  ```
+</details>
+
+## [NSE Scripts] Overview
+### What language are NSE scripts written in?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  lua
+  ```
+</details>
+
+### Which category of scripts would be a very bad idea to run in a production environment?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  intrusive
+  ```
+</details>
+
+## [NSE Scripts] Working with the NSE
+### What optional argument can the ftp-anon.nse script take?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  maxlist
+  ```
+</details>
+
+## [NSE Scripts] Searching for Scripts
+### Search for "smb" scripts in the /usr/share/nmap/scripts/ directory using either of the demonstrated methods.
+What is the filename of the script which determines the underlying OS of the SMB server?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  maxlist
+  ```
+</details>
+
+### Read through this script. What does it depend on?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  smb-brute
+  ```
+</details>
+
+## Firewall Evasion
+### Which simple (and frequently relied upon) protocol is often blocked, requiring the use of the -Pn switch?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  ICMP
+  ```
+</details>
+
+### Which Nmap switch allows you to append an arbitrary length of random data to the end of packets?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  --data-length
+  ```
+</details>
+
+## Practical
+### Does the target (10.10.53.56)respond to ICMP (ping) requests (Y/N)?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  N
+  ```
+</details>
+
+### Perform an Xmas scan on the first 999 ports of the target -- how many ports are shown to be open or filtered?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  999
+  ```
+</details>
+
+### The answer will be in your scan results. Think carefully about which switches to use -- and read the hint before asking for help!
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  no response
+  ```
+</details>
+
+### Perform a TCP SYN scan on the first 5000 ports of the target -- how many ports are shown to be open?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  5
+  ```
+</details>
+
+### Open Wireshark (see Cryillic's Wireshark Room for instructions) and perform a TCP Connect scan against port 80 on the target, monitoring the results.
+Make sure you understand what's going on.
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  No answer needed.
+  ```
+</details>
+
+### Deploy the ftp-anon script against the box. Can Nmap login successfully to the FTP server on port 21? (Y/N)
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  Y
+  ```
+</details>
+
+## Conclusion
+### Read the conclusion.
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  No answer needed.
+  ```
+</details>
