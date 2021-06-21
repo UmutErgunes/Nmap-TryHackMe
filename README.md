@@ -365,3 +365,24 @@ What is the filename of the script which determines the underlying OS of the SMB
   smb-brute
   ```
 </details>
+
+## Firewall Evasion
+### Which simple (and frequently relied upon) protocol is often blocked, requiring the use of the -Pn switch?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  ICMP
+  ```
+</details>
+
+### Which Nmap switch allows you to append an arbitrary length of random data to the end of packets?
+
+<details>
+  <summary>Answer</summary>
+
+  ```
+  --data-length
+  ```
+</details>
